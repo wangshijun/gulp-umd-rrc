@@ -1,13 +1,12 @@
 {
-  "name": "gulp-umd",
-  "version": "0.2.0",
+  "name": "gulp-umd-rrc",
+  "version": "1.0.0",
   "description": "Gulp plugin for build JavaScript files as Universal Module Definition, aka UMD.",
   "license": "MIT",
   "repository": "eduardolundgren/gulp-umd",
   "author": {
-    "name": "Eduardo Lundgren",
-    "email": "edua@rdo.io",
-    "url": "http://eduardo.io"
+    "name": "wangshijun",
+    "email": "wangshijun2010@gmail.com",
   },
   "engines": {
     "node": ">=0.10.0"

@@ -16,6 +16,9 @@ var defaultOptions = {
   namespace: function(file) {
     return capitalizeFilename(file);
   },
+  packageName: function(file) {
+    return capitalizeFilename(file);
+  },
   template: path.join(__dirname, 'templates/returnExports.js')
 };
 
@@ -79,6 +82,7 @@ function buildFileTemplateData(file, options) {
     dependencies: dependencies,
     exports: options.exports(file),
     namespace: options.namespace(file),
+    packageName: options.packageName(file),
     // Adds resolved dependencies for each environment into the template data
     amd: '[' + amd.join(', ') + ']',
     cjs: cjs.join(', '),

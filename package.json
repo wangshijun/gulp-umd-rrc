@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Gulp plugin for build JavaScript files as Universal Module Definition, aka UMD.",
   "license": "MIT",
-  "repository": "eduardolundgren/gulp-umd",
+  "repository": "wangshijun/gulp-umd-rrc",
   "author": {
     "name": "wangshijun",
     "email": "wangshijun2010@gmail.com"

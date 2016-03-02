@@ -6,7 +6,7 @@
   "repository": "eduardolundgren/gulp-umd",
   "author": {
     "name": "wangshijun",
-    "email": "wangshijun2010@gmail.com",
+    "email": "wangshijun2010@gmail.com"
   },
   "engines": {
     "node": ">=0.10.0"
